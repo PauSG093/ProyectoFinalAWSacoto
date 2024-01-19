@@ -1,0 +1,223 @@
+body{
+    background-image: url(/ProyectoAWEB/Imagenes/copas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+Footer{
+    height: 70px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+    z-index: 0;
+}
+
+.maps{
+    align-items: center;
+    margin: 0 auto; 
+    display: block
+}
+
+.nos{  
+    
+    text-align: justify;
+   
+    line-height: 2em;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+
+}
+
+.recuadro{
+    position: relative;
+    width: 50%;
+}
+.recuadro::after{
+content: '';
+display: block;
+padding-bottom: 30%;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+#mision{
+
+    margin-right: 400px;
+    margin-left: 400px;
+}
+#vision{
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+#ubicacion{
+    margin-right: 400px;
+    margin-left: 400px;
+}
+.navbar{
+    background-image: url(/ProyectoAWEB/Imagenes/fondo2.jpg);
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.card {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+    
+}
+
+.card .content {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;  
+    text-align: center;  
+    padding: 20px;
+    background: #fff;
+}
+
+.card .content .img {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.card .content .img img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card .content span {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(to right, #5f2e18, #c89e84);
+    transform: rotate(-35deg);
+    top: -50px;
+    left: -100px;
+}
+
+.card .content h4 {
+    font-size: 18px;
+    color: #1a1919;
+    margin-bottom: 5px;
+}
+
+.card .content h6 {
+    font-size: 13px;
+    color: #5e2066;
+}
+
+.card .content p {
+    font-size: 13px;
+    color: #1a161f;
+    margin-top: 10px;
+}
+
+.card .links {
+    position: absolute;
+    z-index: 90;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    padding: 20px;
+    align-items: center;
+    right: 10px;
+    top: 15px;
+    transition: .5s;
+}
+
+.card:hover .links {
+    right: -50px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.card .links a {
+    font-size: 20px;
+    color: #646069;
+}
+
+.card .links a:nth-child(1):hover {
+    color: #0158ca;
+}
+
+.card .links a:nth-child(2):hover {
+    color: #1C93E4;
+}
+
+
+.cards{
+    height: auto;
+    display:flex;
+    display:-webkit-flex;
+    justify-content:center;
+    -webkit-justify-content:center;
+    align-items: center;
+}
+
+
+.slider {
+    align-items: center;
+    width: 75vw;
+    height: auto;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 90s linear infinite;
+    -webkit-animation: scroll 90s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}

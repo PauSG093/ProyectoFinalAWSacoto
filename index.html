@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/icono.svg" />
+    <title>Rancho San Pedro</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+        <img src="Imagenes/logo.jpg" alt="Rancho" width="50" height="50" >
+        <a class="navbar-brand" href="nosotros.html">¿Quienes somos?</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Servicios.html"
+                >Servicios</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reserva.html">Reservas</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Varios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="fotos.html">Fotos</a></li>
+                <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/rancho1.jpg" class="d-block w-100" alt="rancho" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Rancho San Pedro</h5>
+            <p>Disfruta tu estadía rodeado de las bondades de la naturaleza</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/cabana1.jpg" class="d-block w-100" alt="cabaña1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cabaña Laurel</h5>
+            <p>Acojedora cabaña matrimonial</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/cabana2.jpg" class="d-block w-100" alt="cabaña2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cabaña Canela</h5>
+            <p>Acojedora cabaña familiar</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/comedor.jpg" class="d-block w-100" alt="comedor" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Comedor</h5>
+            <p>
+              Deleita tu paladar con comida hecha en casa y en horno de leña
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <section class="flex-tarjetas">
+      <div class="card" style="width: 18rem;">
+          <img src="Imagenes/costillas.jpg" class="card-img-top" alt="Casa">
+          <div class="card-body">
+          <h5 class="card-title">Servicio de comida</h5>
+          <p class="card-text">Deliciosa comida preparada al instante con ingredientes de primera calidad para asegurar un sabor unico para su paladar</p>
+          <a href="Servicios.html" class="btn btn-primary">ver mas</a>
+          </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+          <img src="imagenes/bochas.JPG" class="card-img-top" alt="Jardin">
+          <div class="card-body">
+          <h5 class="card-title">Actividades recreativas</h5>
+          <p class="card-text">Diferentes actividades deportivas o relajantes para disfrutar</p>
+          <a href="Servicios.html" class="btn btn-primary">ver mas</a>
+          </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+          <img src="Imagenes/matrimonio.jpg" class="card-img-top" alt="cerrado">
+          <div class="card-body">
+          <h5 class="card-title">Eventos</h5>
+          <p class="card-text">Un lugar que se adapta a sus necesidades</p>
+          <a href="reserva.html" class="btn btn-primary">ver mas</a>
+          </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+          <img src="Imagenes/parrilla.jpg" class="card-img-top" alt="abierto">
+          <div class="card-body">
+          <h5 class="card-title">Zona de parrillada</h5>
+          <p class="card-text">Este es el lugar adecuado para dejar fluir sus dotes culinarios</p>
+          <a href="Servicios.html" class="btn btn-primary">ver mas</a>
+          </div>
+      </div>
+  </section>
+    <!-- Footer -->
+    <footer class="footer text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center p-4 border-bottom">
+        <div class="caja1 me-5 d-none d-lg-block" style="text-align: center;">
+          <span><strong><b> Si tienes dudas, no dudes en contactarnos: </b></strong></span>
+        </div>
+        
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Rancho San Pedro
+              </h6>
+              <p>
+                A solo 20 minutos de Cuenca, encuentras este maravilloso lugar
+                para disfrutar de una mezcla de naturaleza y confort.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Productos</h6>
+              <p>
+                <a href="#!" class="text-reset">Quienes somos</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Servicios</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Reservas</a>
+              </p>
+              
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Redes sociales</h6>
+              <p>
+                <a href="https://www.facebook.com/profile.php?id=100065153252454" class="text-reset">Facebook</a>
+              </p>
+              <p>
+                <a href="https://api.whatsapp.com/send?phone=%2B593992133987&data=ARB0u9nJ6RAKvdGHQO0Rjx9Xi4n6dN-wGlDANr8Zv7JZGWQnqdAA2nyQWq2p45EMs_AnW2kBCLV6b03JT-N-euyN68bbdqS34bRgDYgzjKMJYKCGTvsuwyM7jaqRzDEj1NAkykGnj4SD1Dz-2igpEhfgJg&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR2DrFfhtBnrDsuc71CCon0pnUlNq5HPKOSSKxvBjg1Z8JmNRBbIoLV0b4M" class="text-reset">Whatsapp</a>
+              </p>
+              <p>
+                <a href="https://www.instagram.com/ranchosanpedro_cuenca?igsh=MnYzd2xhM2xiMXV1" class="text-reset">Instagram</a>
+              </p>
+              
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+              <p><i class="fas fa-home me-3"></i>Panamericana Sur Km17 vía Loja, Cuenca, EC</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                ranchosanpedro2019@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> +593 99 213 3987</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="https://www.facebook.com/profile.php?id=100085129323250"
+          >Ana Sacoto</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  
